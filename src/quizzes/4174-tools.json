@@ -1,0 +1,192 @@
+[
+  {
+      "question": "What does the tool 'nslookup' primarily do?",
+      "answers": [
+          "It scans networks for vulnerabilities.",
+          "It provides information on the physical location of devices on a network.",
+          "It queries domain name servers to extract DNS records and IP addresses.",
+          "It helps in cracking encrypted passwords from network traffic."
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which tool is designed to enumerate sub-domains using search engines and other techniques?",
+      "answers": [
+          "Whois",
+          "Netcraft",
+          "Sublist3r",
+          "Wireshark"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "What kind of information can you retrieve with the 'Whois' tool?",
+      "answers": [
+          "Network traffic details such as packet capture and analysis",
+          "Sub-domain names of a target website",
+          "Detailed domain information, including registration and contact details",
+          "Information related to open ports on a system"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the primary function of the 'traceroute' tool?",
+      "answers": [
+          "To map network traffic and identify open ports on a server",
+          "To determine round-trip times and trace the path taken by packets across a network",
+          "To provide the geographical location of a domain or IP address",
+          "To scan for vulnerabilities on a network and report weaknesses"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which tool would you use to find the geo-location of an IP address or domain?",
+      "answers": [
+          "Nmap",
+          "iplocation.net",
+          "Shodan",
+          "Wireshark"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which of the following tools is commonly used to discover open ports across large IP ranges?",
+      "answers": [
+          "Nmap",
+          "Masscan",
+          "Shodan",
+          "TheHarvester"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What type of devices does 'Shodan' primarily discover?",
+      "answers": [
+          "Smart devices exposed to the internet",
+          "WiFi network security vulnerabilities",
+          "Open ports and vulnerabilities in web servers",
+          "Hidden wireless networks"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "What is a key feature of 'Wireshark'?",
+      "answers": [
+          "It detects and exploits vulnerabilities in web servers.",
+          "It captures and analyzes network traffic in real-time.",
+          "It scans networks for open ports.",
+          "It locates the geographical origin of an IP address."
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What does the 'Netstumbler' tool do?",
+      "answers": [
+          "Scans for open ports on network servers",
+          "Monitors network traffic and alerts on vulnerabilities",
+          "Displays information about wireless networks, including MAC addresses and SSIDs",
+          "Cracks encrypted passwords from wireless networks"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the purpose of the 'Kismet' tool?",
+      "answers": [
+          "It is used for capturing and analyzing wireless network traffic.",
+          "It is a tool for finding vulnerabilities in websites.",
+          "It helps in discovering smart devices exposed to the internet.",
+          "It performs penetration testing on web servers."
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which tool helps in retrieving publicly available information like host names, subdomains, and social media accounts?",
+      "answers": [
+          "TheHarvester",
+          "AirCrack-ng",
+          "Nessus",
+          "Nexpose"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "What functionality does the 'Recon-ng' tool provide?",
+      "answers": [
+          "It scans networks for open ports.",
+          "It is a command-line tool for gathering information similar to TheHarvester.",
+          "It analyzes traffic to detect malware.",
+          "It discovers vulnerabilities in web servers."
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What type of attacks can 'AirCrack-ng' help with in relation to WiFi networks?",
+      "answers": [
+          "It helps in cracking encryption keys and performing attacks on WiFi networks.",
+          "It scans networks for open ports.",
+          "It discovers devices exposed to the internet.",
+          "It analyzes traffic for malware."
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which tool is used for vulnerability scanning across networks, web applications, and cloud services?",
+      "answers": [
+          "Shodan",
+          "NESSUS",
+          "Nmap",
+          "Netstumbler"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What does 'Nexpose' primarily help with in terms of vulnerability management?",
+      "answers": [
+          "It detects and verifies vulnerabilities and assists in risk calculation, impact analysis, and mitigation.",
+          "It captures and analyzes network traffic for packet inspection.",
+          "It performs attacks on web servers to test for security weaknesses.",
+          "It scans networks for exposed smart devices."
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which of the following tools provides vulnerability scanning specifically for switches, routers, and firewalls?",
+      "answers": [
+          "BurpSuite",
+          "Nipper Studio",
+          "Shodan",
+          "Wireshark"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which of the following tools is widely used for penetration testing and contains a full suite for gathering information, searching for vulnerabilities, and running exploits?",
+      "answers": [
+          "MetaSploit",
+          "Shodan",
+          "Wireshark",
+          "Masscan"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "What type of vulnerabilities does 'Netsparker' and 'Acunetix' look for in web applications?",
+      "answers": [
+          "Cross-site scripting and SQL injection",
+          "Open ports and exposed services",
+          "Geo-location data of servers",
+          "Cracking WiFi passwords"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "What is the primary function of the tool 'MetaSploit'?",
+      "answers": [
+          "It helps in mapping networks and identifying vulnerabilities.",
+          "It provides a suite of tools for vulnerability scanning and exploitation.",
+          "It discovers exposed smart devices in an IoT environment.",
+          "It detects malware and performs system scans."
+      ],
+      "correctAnswer": 1
+  }
+]

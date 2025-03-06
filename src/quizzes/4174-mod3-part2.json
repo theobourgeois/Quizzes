@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the primary function of a Bastion Host (BH) in a firewall gateway?",
+    "answers": [
+      "To act as an information server for public access",
+      "To eliminate direct packet exchange between private and outside networks by acting as a proxy",
+      "To provide an alternative routing path for external connections",
+      "To function as an independent DNS resolver for the network"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is NOT a design feature of a Bastion Host (BH)?",
+    "answers": [
+      "Execution of a secure version of the OS",
+      "Installation of only essential services",
+      "Allowing direct user logins for management purposes",
+      "Requiring additional authentication for users"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Why is a Screened Host Firewall considered to have high flexibility but low security?",
+    "answers": [
+      "Because the Bastion Host is on the same network segment as private hosts, allowing potential direct access to the internet",
+      "Because it uses multiple routers to segment the network",
+      "Because all traffic must pass through the BH before reaching private hosts",
+      "Because it uses dual network interfaces to enforce strict traffic flow control"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In a Dual-Homed Gateway Firewall configuration, why are information servers placed outside the Bastion Host?",
+    "answers": [
+      "To provide better access to internal users",
+      "To allow external users to access them without requiring proxy setup",
+      "To enhance NAT functionality",
+      "To reduce traffic congestion on private networks"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the main advantage of a Screened Subnet Gateway Firewall over a Dual-Homed Gateway Firewall?",
+    "answers": [
+      "It uses a single router for filtering traffic",
+      "It eliminates the need for a Bastion Host",
+      "It creates a DMZ (de-militarized zone) using two routers for improved security and flexibility",
+      "It allows direct communication between the private network and external networks"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following rules applies to the INNER router (R1) in a Screened Subnet Firewall configuration?",
+    "answers": [
+      "Inbound traffic is only allowed from the Bastion Host",
+      "Inbound traffic is allowed from all external sources",
+      "Outbound traffic is only allowed from the Info Servers",
+      "Outbound traffic can be sent directly to the Internet"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the primary function of Network Address Translation (NAT) in a firewall gateway?",
+    "answers": [
+      "To allow direct communication between internal and external hosts",
+      "To translate private IP addresses to public IP addresses for security and address preservation",
+      "To act as a proxy for filtering application-level traffic",
+      "To dynamically assign IP addresses within the internal network"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which private IP address range is NOT designated by IANA for internal use?",
+    "answers": [
+      "10.0.0.0 - 10.255.255.255",
+      "172.32.0.0 - 172.47.255.255",
+      "192.168.0.0 - 192.168.255.255",
+      "172.16.0.0 - 172.31.255.255"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which NAT configuration is most efficient for large-scale outbound connections while conserving public IP addresses?",
+    "answers": [
+      "Static (1-1) NAT",
+      "Dynamic Many-to-a-Pool NAT",
+      "Dynamic Many-to-1 NAT (PAT)",
+      "None of the above"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Why is Static (1-1) NAT considered the least efficient in terms of address preservation?",
+    "answers": [
+      "Because it requires a unique public IP for each internal host",
+      "Because it constantly changes the mapping table",
+      "Because it relies on client port numbers for address translation",
+      "Because it does not allow internal servers to be accessed from external networks"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is a major limitation of Dynamic Many-to-a-Pool NAT?",
+    "answers": [
+      "It requires each internal host to have a unique public IP address",
+      "It allows only a limited number of clients to connect to outside servers at any given time",
+      "It prevents internal servers from being accessible externally",
+      "It does not support outbound traffic translation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How does Dynamic Many-to-1 NAT (PAT) handle multiple simultaneous connections?",
+    "answers": [
+      "By assigning a unique public IP address to each internal host",
+      "By using both client port numbers and IP addresses for mapping",
+      "By allowing each internal host to directly request a public IP address",
+      "By creating a fixed mapping table that does not change over time"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following firewall configurations provides the best balance of security and flexibility?",
+    "answers": [
+      "Screened Host Firewall",
+      "Dual-Homed Gateway Firewall",
+      "Screened Subnet Gateway Firewall",
+      "Packet Filtering Firewall"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In a Dual-Homed Gateway Firewall, what is the primary role of the packet filtering router?",
+    "answers": [
+      "To allow all traffic to pass freely between internal and external networks",
+      "To enforce access control by guiding traffic either to the Bastion Host or the information servers",
+      "To act as an independent proxy for all network traffic",
+      "To manage private-to-public IP translation via NAT"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A company has 500 clients and 10 internal servers that need to be accessible from external networks. Using Static (1-1) NAT, how many public IP addresses would be required?",
+    "answers": [
+      "10",
+      "500",
+      "510",
+      "1"
+    ],
+    "correctAnswer": 2
+  }
+]

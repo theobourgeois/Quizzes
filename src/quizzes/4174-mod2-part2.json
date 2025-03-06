@@ -1,0 +1,152 @@
+[
+  {
+      "question": "Which social engineering technique involves the attacker making the victim believe that others have already provided similar information, thereby lowering their guard?",
+      "answers": [
+          "Pretexting",
+          "Diffusion of responsibility",
+          "Baiting",
+          "Phishing"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is the primary goal of a spear phishing attack?",
+      "answers": [
+          "To target a specific individual or organization using personalized information",
+          "To launch a broad phishing campaign to as many users as possible",
+          "To conduct a denial-of-service attack through fraudulent firmware updates",
+          "To manipulate victims into physically handing over sensitive documents"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which method of social engineering relies on exploiting human curiosity or greed by leaving malicious physical media for victims to discover?",
+      "answers": [
+          "Quishing",
+          "Shoulder Surfing",
+          "Baiting",
+          "Vishing"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "In a vishing attack, what method does the attacker primarily use to extract sensitive information?",
+      "answers": [
+          "Sending phishing emails",
+          "Using voice communication, such as phone calls",
+          "Tricking victims into scanning QR codes",
+          "Compromising social media accounts"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "How does pharming differ from phishing?",
+      "answers": [
+          "Pharming does not require a lure and redirects users automatically to fraudulent websites",
+          "Pharming requires an email to be sent to lure the victim, whereas phishing does not",
+          "Pharming involves using voice-based deception, while phishing relies on fake websites",
+          "Pharming is exclusively conducted over SMS rather than email"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which of the following is an example of reverse social engineering?",
+      "answers": [
+          "An attacker sets up a fake Facebook account pretending to be someone else, then scams the victim’s friends",
+          "An attacker directly calls an employee and impersonates IT support",
+          "An attacker leaves a USB drive labeled 'Confidential' in a company parking lot",
+          "An attacker sends out mass emails asking users to reset their passwords"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which attack specifically targets high-value individuals, such as executives or government officials?",
+      "answers": [
+          "Phlashing",
+          "Whaling",
+          "Baiting",
+          "Dumpster Diving"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is the main goal of a quishing attack?",
+      "answers": [
+          "To send phishing messages over SMS",
+          "To compromise social media accounts",
+          "To deceive victims into scanning malicious QR codes",
+          "To gather credentials through insecure web forms"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "How does a phlashing attack render a device permanently unusable?",
+      "answers": [
+          "By exploiting firmware updates and flashing corrupt firmware onto the device",
+          "By continuously redirecting network traffic until the device is overwhelmed",
+          "By sending repeated phishing emails to the same victim",
+          "By tricking users into revealing their login credentials"
+      ],
+      "correctAnswer": 0
+  },
+  {
+      "question": "Which of the following is NOT an example of baiting?",
+      "answers": [
+          "A hacker leaves a USB drive labeled 'Company Salaries' in an office breakroom",
+          "A hacker sets up a fraudulent QR code in a public place",
+          "An attacker calls an employee and pretends to be IT support",
+          "An attacker offers free movie tickets online but requires users to enter their credentials"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which technique involves an attacker gaining information by physically watching over a victim's shoulder?",
+      "answers": [
+          "Dumpster Diving",
+          "Baiting",
+          "Shoulder Surfing",
+          "Whaling"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the primary method of mitigating social engineering attacks?",
+      "answers": [
+          "Installing stronger firewalls and intrusion detection systems",
+          "Conducting regular training sessions and simulated phishing tests",
+          "Blocking all external communication within an organization",
+          "Implementing automated password changes every 24 hours"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "An attacker impersonates a company executive and urgently requests sensitive data from an employee. This is an example of:",
+      "answers": [
+          "Dumpster Diving",
+          "Baiting",
+          "Whaling",
+          "Phlashing"
+      ],
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which of the following is an example of credentials harvesting?",
+      "answers": [
+          "Convincing a victim to scan a fraudulent QR code",
+          "Obtaining large numbers of usernames and passwords through an insecure web form",
+          "Convincing a victim to download malware that deletes all system files",
+          "Redirecting a victim to a fake website without their knowledge"
+      ],
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which technique involves an attacker gaining sensitive company information by searching through discarded documents and trash?",
+      "answers": [
+          "Vishing",
+          "Dumpster Diving",
+          "Spear Phishing",
+          "Reverse Social Engineering"
+      ],
+      "correctAnswer": 1
+  }
+]

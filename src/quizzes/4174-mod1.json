@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which type of hacker is primarily motivated by vigilante justice or is sometimes hired by governments for counter-hacking purposes?",
+    "answers": [
+      "White Hat",
+      "Red Hat",
+      "Blue Hat",
+      "Green Hat"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following best describes a 'Fabrication' attack?",
+    "answers": [
+      "Disrupting a service so it becomes unavailable to users",
+      "Intercepting and modifying data in transit between a client and server",
+      "Inserting counterfeit objects into a system, such as malware",
+      "Gaining unauthorized access to information through eavesdropping"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A hacker sends probes to extract sensitive information from network traffic without directly interacting with the victim's machine. This is an example of:",
+    "answers": [
+      "Passive Eavesdropping",
+      "Active Eavesdropping",
+      "Interception",
+      "Fabrication"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which security goal ensures that the sender of a message cannot deny having sent it?",
+    "answers": [
+      "Authentication",
+      "Non-Repudiation",
+      "Integrity",
+      "Access Control"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is NOT typically included in the reconnaissance phase of hacking?",
+    "answers": [
+      "Collecting open ports and server details",
+      "Extracting social media information",
+      "Executing a brute force attack",
+      "Gathering DNS and IP address records"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A hacker modifies network traffic to alter the information being sent between a client and a server. Which attack category does this belong to?",
+    "answers": [
+      "Interruption",
+      "Interception",
+      "Modification",
+      "Fabrication"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is a distinguishing factor between a Dictionary Attack and a Brute Force Attack?",
+    "answers": [
+      "Dictionary Attacks only work on numerical passwords",
+      "Brute Force Attacks attempt all possible character combinations, whereas Dictionary Attacks use a predefined list of words",
+      "Dictionary Attacks are only effective against encrypted password files",
+      "Brute Force Attacks only work if an attacker has direct server access"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following tools is used specifically to scan and identify open ports across large IP ranges?",
+    "answers": [
+      "Nmap",
+      "Netcraft",
+      "Masscan",
+      "Netstumbler"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the primary role of a Man-in-the-Middle (MITM) attack?",
+    "answers": [
+      "To overload a target system and cause it to become unavailable",
+      "To intercept and potentially alter communication between a client and server",
+      "To inject malware into a system for long-term persistence",
+      "To send excessive traffic to a server from multiple sources"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following best describes the difference between passive and active sniffing?",
+    "answers": [
+      "Passive sniffing gathers data silently, while active sniffing injects packets into the network",
+      "Passive sniffing modifies network traffic, whereas active sniffing only intercepts it",
+      "Passive sniffing is used for intrusion detection, while active sniffing is used for ethical hacking",
+      "There is no difference; both are forms of network monitoring"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A hacker gains access to a system and leaves no trace but does not cause any immediate damage. Which intrusion level does this represent?",
+    "answers": [
+      "Intrusion Level 1",
+      "Intrusion Level 2",
+      "Intrusion Level 3",
+      "Intrusion Level 4"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a primary function of cryptography in cybersecurity?",
+    "answers": [
+      "Ensuring message confidentiality, integrity, and authentication",
+      "Blocking unauthorized network traffic using firewalls",
+      "Detecting unauthorized access using intrusion detection systems",
+      "Managing and storing passwords securely in encrypted files"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "An attacker captures network packets from a legitimate login session and replays them later to gain unauthorized access. This is an example of which attack?",
+    "answers": [
+      "Session Hijacking",
+      "Replay Attack",
+      "MITM Attack",
+      "Data Modification"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following best describes the purpose of an Address Spoofer?",
+    "answers": [
+      "To intercept and analyze network traffic for vulnerabilities",
+      "To use a spoofed IP or MAC address to bypass authentication and gain network access",
+      "To store and recover user keystrokes for later use",
+      "To encrypt sensitive data for secure transmission"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which security goal ensures that legitimate users always have access to system resources?",
+    "answers": [
+      "Confidentiality",
+      "Authentication",
+      "Availability",
+      "Certification"
+    ],
+    "correctAnswer": 2
+  }
+]

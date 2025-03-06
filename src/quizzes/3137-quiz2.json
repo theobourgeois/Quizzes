@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which of the following statements about type systems is correct?",
+    "answers": [
+      "A language with a strongly typed system prevents all type-related runtime errors.",
+      "A statically typed language always requires explicit type annotations for variables.",
+      "A dynamically typed language allows variables to hold values of different types at different times.",
+      "Weakly typed languages always allow implicit conversions between any two types."
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "question": "Consider the following C structures. Select the correct statements regarding their type equivalence.\n\n```c\nstruct A {\n    string name;\n    int age;\n};\n\nstruct B {\n    string name;\n    int age;\n};\n```",
+    "answers": [
+      "They are structurally equivalent but not name equivalent.",
+      "They are name equivalent but not structurally equivalent.",
+      "They are both structurally and name equivalent.",
+      "They are neither structurally nor name equivalent."
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "question": "Which of the following statements about algebraic data types (ADTs) is correct?",
+    "answers": [
+      "An algebraic data type is a combination of sum types and product types.",
+      "Algebraic data types cannot be represented in statically typed languages.",
+      "Tagged unions are an example of an algebraic data type.",
+      "Algebraic data types always require dynamic memory allocation."
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "question": "Which of the following statements about sum types is correct?",
+    "answers": [
+      "Sum types are also known as tagged unions in languages like Rust and Haskell.",
+      "Sum types allow a variable to hold values of different types at the same time.",
+      "Sum types can be represented using enum types in strongly typed languages.",
+      "Sum types are equivalent to C-style unions with no additional information stored."
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "question": "Which of the following best describes the difference between tuples and records (structs)?",
+    "answers": [
+      "Tuples have named fields, while records require positional access.",
+      "Records allow named field access, while tuples require positional access.",
+      "Tuples cannot store different data types, but records can.",
+      "Records use more memory than tuples because they store extra type metadata."
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "question": "Which of the following is an example of a recursive type?",
+    "answers": [
+      "A struct that contains a pointer to another instance of the same struct.",
+      "A struct that contains two fields of different types.",
+      "A union that can store either an integer or a floating-point number.",
+      "A function that calls itself."
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "question": "Which of the following statements about type inference is correct?",
+    "answers": [
+      "Type inference is only possible in dynamically typed languages.",
+      "Type inference allows the compiler to determine the type of a variable based on context.",
+      "Type inference always eliminates the need for explicit type annotations.",
+      "Languages like Haskell and Rust support type inference while still being statically typed."
+    ],
+    "correctAnswer": [1, 3]
+  },
+  {
+    "question": "Which of the following statements about tagged and untagged unions is correct?",
+    "answers": [
+      "Tagged unions include information about which variant is currently in use.",
+      "Untagged unions are type-safe because they enforce runtime checks.",
+      "Tagged unions are less memory-efficient than untagged unions.",
+      "Untagged unions prevent incorrect access to memory by using explicit type markers."
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "question": "Which of the following statements about type equivalence is true?",
+    "answers": [
+      "Structural equivalence means that two types are equivalent if they have the same structure.",
+      "Name equivalence requires two types to have identical field names and types to be equivalent.",
+      "C uses name equivalence for struct types, meaning different struct definitions are distinct types.",
+      "Languages like Haskell and Rust use only structural equivalence for type checking."
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "question": "Consider the following Rust code defining an enum:\n\n```rust\nenum Result<T, E> {\n    Ok(T),\n    Err(E),\n}\n```\n\nWhich of the following statements is correct?",
+    "answers": [
+      "`Result<T, E>` is an example of a sum type because it can be either `Ok(T)` or `Err(E)`.",
+      "`Result<T, E>` is a product type because it combines multiple types into one structure.",
+      "Rust enforces strict type checking, ensuring that pattern matching on `Result<T, E>` is exhaustive.",
+      "The `Result<T, E>` enum cannot be used for error handling in Rust."
+    ],
+    "correctAnswer": [0, 2]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which of the following is a key difference between a Screened Host Firewall and a Dual-Homed Gateway Firewall?",
+    "answers": [
+      "A Screened Host Firewall uses two routers, while a Dual-Homed Gateway Firewall uses one.",
+      "A Screened Host Firewall allows direct access to information servers, while a Dual-Homed Gateway Firewall forces all traffic through the Bastion Host.",
+      "A Screened Host Firewall is less secure than a Dual-Homed Gateway Firewall.",
+      "A Screened Host Firewall does not use a Bastion Host, while a Dual-Homed Gateway Firewall does."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about the Ping of Death attack?",
+    "answers": [
+      "It exploits TCP SYN segments to overload the server.",
+      "It sends oversized ping packets that cause buffer overflow when reassembled.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source.",
+      "It fragments IP packets to cause buffer overflow."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is an example of a Degradation of Service attack?",
+    "answers": [
+      "A hacker completely disables a server, making it inaccessible.",
+      "A hacker slows down a server's performance without completely disabling it.",
+      "A hacker modifies data in transit between a client and server.",
+      "A hacker injects malware into a system to steal information."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a characteristic of a Green Hat Hacker?",
+    "answers": [
+      "They are motivated by personal gain and malicious intent.",
+      "They are learning and experimenting with hacking techniques.",
+      "They are hired by companies to find vulnerabilities in their own networks.",
+      "They are vigilantes who target malicious hackers."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about the TCP SYN Flood attack?",
+    "answers": [
+      "It sends oversized ping packets to the victim.",
+      "It exploits the fragmentation of IP datagrams.",
+      "It overloads the server with half-opened TCP connections.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Session Hijacking attack?",
+    "answers": [
+      "A hacker captures and retransmits packets to the server at a later time.",
+      "A hacker takes over an existing connection by spoofing the client's address.",
+      "A hacker modifies data in transit between a client and server.",
+      "A hacker prevents legitimate users from accessing a server."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a key feature of a Screened Subnet Firewall?",
+    "answers": [
+      "It allows direct communication between the private network and the outside network.",
+      "It places the Bastion Host on the same network segment as the private network.",
+      "It uses two routers to create a DMZ network.",
+      "It does not require proxies for any traffic."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is true about the RST Flood attack?",
+    "answers": [
+      "It sends oversized ping packets to the victim.",
+      "It exploits TCP SYN segments to overload the server.",
+      "It sends a flood of RST segments to the server.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Phishing attack?",
+    "answers": [
+      "A hacker leaves a USB key labeled 'Confidential' in a public area.",
+      "A hacker sends a fake email to gather sensitive information.",
+      "A hacker redirects victims to a fraudulent website without their knowledge.",
+      "A hacker impersonates an IT support technician to gain access to a system."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a key feature of a Static NAT?",
+    "answers": [
+      "It dynamically assigns private IP addresses to a pool of public IP addresses.",
+      "It maps each private IP address to a unique public IP address.",
+      "It uses client port numbers in conjunction with IP addresses.",
+      "It allows only a single client to connect to the outside network at a time."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about the Fragmented ACK Flood attack?",
+    "answers": [
+      "It sends oversized ping packets to the victim.",
+      "It exploits TCP SYN segments to overload the server.",
+      "It fragments ACK segments and floods the server.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Baiting attack?",
+    "answers": [
+      "A hacker sends a fake email to gather sensitive information.",
+      "A hacker leaves a USB key labeled 'Confidential' in a public area.",
+      "A hacker redirects victims to a fraudulent website without their knowledge.",
+      "A hacker impersonates an IT support technician to gain access to a system."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a key feature of a Dynamic Many-to-1 NAT?",
+    "answers": [
+      "It maps each private IP address to a unique public IP address.",
+      "It dynamically assigns private IP addresses to a pool of public IP addresses.",
+      "It uses client port numbers in conjunction with IP addresses.",
+      "It allows only a single client to connect to the outside network at a time."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is true about the SYN-ACK Flood attack?",
+    "answers": [
+      "It sends oversized ping packets to the victim.",
+      "It exploits TCP SYN segments to overload the server.",
+      "It sends a flood of SYN-ACK segments to the victim.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Pretexting attack?",
+    "answers": [
+      "A hacker sends a fake email to gather sensitive information.",
+      "A hacker leaves a USB key labeled 'Confidential' in a public area.",
+      "A hacker impersonates an IT support technician to gain access to a system.",
+      "A hacker redirects victims to a fraudulent website without their knowledge."
+    ],
+    "correctAnswer": 2
+  }
+]

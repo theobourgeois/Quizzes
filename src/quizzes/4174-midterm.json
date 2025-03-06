@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of a Bastion Host in a firewall configuration?",
+    "answers": [
+      "It runs a secure version of the operating system.",
+      "It allows direct TCP connections between outside and inside networks.",
+      "It sets up proxy clients and servers for each application.",
+      "It requires additional authentication from users."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In a Screened Subnet Firewall configuration, which of the following is true about the DMZ?",
+    "answers": [
+      "It allows direct communication between the private network and the outside network.",
+      "It is a network segment between two routers where the Bastion Host and information servers reside.",
+      "It is a fully secure zone with no external access.",
+      "It is only accessible to the private network and not the outside network."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is an example of a Dynamic Many-to-1 NAT?",
+    "answers": [
+      "Each private IP address is mapped to a unique public IP address.",
+      "Private IP addresses are dynamically assigned to a pool of public IP addresses.",
+      "Private IP addresses and port numbers are mapped to a single public IP address and unique NAT port numbers.",
+      "Private IP addresses are statically mapped to a single public IP address."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is a key limitation of packet filtering routers?",
+    "answers": [
+      "They cannot filter traffic based on IP addresses.",
+      "They allow direct TCP connections between outside and inside networks.",
+      "They work up to the application layer.",
+      "They are immune to address spoofing."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about a Dual-Homed Gateway Firewall?",
+    "answers": [
+      "It allows direct communication between the private network and the outside network.",
+      "It places the Bastion Host on the same network segment as the private network.",
+      "It forces all traffic destined for the private network through the Bastion Host.",
+      "It does not require proxies for any traffic."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Logic DoS attack?",
+    "answers": [
+      "Ping Flood",
+      "TCP SYN Flood",
+      "Tear Drop Attack",
+      "Land Attack"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which of the following is a characteristic of a Smurf Attack?",
+    "answers": [
+      "It sends oversized ping packets to the victim.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source.",
+      "It exploits TCP SYN segments to overload the server.",
+      "It fragments IP packets to cause buffer overflow."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following tools is used for comprehensive information gathering, including IP addresses, email addresses, and social media accounts?",
+    "answers": [
+      "Nmap",
+      "Shodan",
+      "theHarvester",
+      "Netstumbler"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Fabrication intrusion?",
+    "answers": [
+      "Eavesdropping on a network transmission.",
+      "Injecting malware into a system.",
+      "Modifying data in transit between a client and server.",
+      "Preventing legitimate users from accessing a server."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about a Replay Attack?",
+    "answers": [
+      "It involves capturing and retransmitting packets to the server at a later time.",
+      "It is a type of Denial of Service attack.",
+      "It modifies data in transit between a client and server.",
+      "It exploits the fragmentation of IP datagrams."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is a characteristic of a Blue Hat Hacker?",
+    "answers": [
+      "They are hired by companies to find vulnerabilities in their own networks.",
+      "They are motivated by personal gain and malicious intent.",
+      "They are learning and experimenting with hacking techniques.",
+      "They are vigilantes who target malicious hackers."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is an example of a Passive Sniffing attack?",
+    "answers": [
+      "Sending probes to gather information from a network.",
+      "Capturing network traffic without sending any probes.",
+      "Modifying data in transit between a client and server.",
+      "Launching a Denial of Service attack on a server."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is true about the HTTP VERB attack?",
+    "answers": [
+      "It involves sending oversized HTTP requests to the server.",
+      "It generates a large number of valid GET requests for a single page.",
+      "It exploits the fragmentation of IP datagrams.",
+      "It is a type of Logic DoS attack."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is a key feature of a Screened Host Firewall?",
+    "answers": [
+      "It places the Bastion Host on a separate network segment from the private network.",
+      "It allows direct access to information servers without using proxies.",
+      "It uses two routers to create a DMZ network.",
+      "It forces all traffic through the Bastion Host."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is an example of a Hybrid Password Cracking attack?",
+    "answers": [
+      "Using a list of well-known passwords to crack a password.",
+      "Trying all possible combinations of character strings to crack a password.",
+      "Using a combination of dictionary and brute force techniques to crack a password.",
+      "Using a keylogger to capture a user's password."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is true about the Tear Drop Attack?",
+    "answers": [
+      "It exploits TCP SYN segments to overload the server.",
+      "It sends oversized ping packets to the victim.",
+      "It fragments IP packets to cause buffer overflow.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Reverse Social Engineering attack?",
+    "answers": [
+      "A hacker impersonates an IT support technician to gain access to a system.",
+      "A hacker leaves a USB key labeled 'Confidential' in a public area.",
+      "A hacker tricks the victim into contacting them for assistance.",
+      "A hacker sends a phishing email to gather sensitive information."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is true about the Land Attack?",
+    "answers": [
+      "It sends a TCP SYN segment with the source and destination IP addresses set to the victim's IP address.",
+      "It broadcasts ICMP echo requests with the victim's IP address as the source.",
+      "It fragments IP packets to cause buffer overflow.",
+      "It sends oversized ping packets to the victim."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is a key feature of a Dynamic Many-to-a-pool NAT?",
+    "answers": [
+      "It maps each private IP address to a unique public IP address.",
+      "It uses client port numbers in conjunction with IP addresses.",
+      "It dynamically assigns private IP addresses to a pool of public IP addresses.",
+      "It allows only a single client to connect to the outside network at a time."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a Pharming attack?",
+    "answers": [
+      "Sending a fake email to gather sensitive information.",
+      "Redirecting victims to a fraudulent website without their knowledge.",
+      "Leaving a USB key labeled 'Confidential' in a public area.",
+      "Impersonating an IT support technician to gain access to a system."
+    ],
+    "correctAnswer": 1
+  }
+]

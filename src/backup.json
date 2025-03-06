@@ -1,0 +1,1316 @@
+{
+  "CSCI4171-Test2-Part1": [
+    {
+      "question": "Which of the following describes the primary purpose of interconnected LANs?",
+      "answers": [
+        "Extends LANs over longer distances",
+        "Increases the LAN performance",
+        "Interconnects LANs of different speeds",
+        "Supports VPN connections for remote access"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is a key characteristic of a Repeater/Hub?",
+      "answers": [
+        "Operates at the Data-link layer",
+        "Creates a different collision domain",
+        "Amplifies and retransmits signals",
+        "Performs path determination using routing tables"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which device operates at the Data-link layer and can connect LANs of different speeds?",
+      "answers": ["Router", "Switch", "Repeater", "Hub"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is a significant difference between a Bridge and a Router?",
+      "answers": [
+        "Bridges use routing tables, while routers do not",
+        "Routers operate at the Network layer, while bridges operate at the Data-link layer",
+        "Bridges separate broadcast domains, while routers do not",
+        "Routers only work with static routing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following terms describes a situation where the final destination and the deliverer are on the same network?",
+      "answers": [
+        "Indirect Delivery",
+        "Direct Delivery",
+        "Next Hop Routing",
+        "Static Routing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does 'Next Hop Routing' mean in the context of routing tables?",
+      "answers": [
+        "Specifying the final destination for every packet",
+        "An entry that contains the address of the next router",
+        "Treating all hosts on a network as a single entity",
+        "Routing tables that update manually"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In which scenario is Static Routing preferred over Dynamic Routing?",
+      "answers": [
+        "For large networks requiring constant updates",
+        "When security and manual control are priorities",
+        "For networks using multiple routing algorithms",
+        "To ensure fast and automatic route updates"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the maximum number of hosts per network for a Class B IPv4 address?",
+      "answers": ["2^24 - 2", "2^16 - 2", "126", "254"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which class of IPv4 addresses is reserved for multicast traffic?",
+      "answers": ["Class A", "Class B", "Class C", "Class D"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of the following is a valid private IP address range designated by IANA?",
+      "answers": [
+        "192.0.0.0 - 223.255.255.255",
+        "172.16.0.0 - 172.31.255.255",
+        "240.0.0.0 - 255.255.255.255",
+        "127.0.0.0 - 127.255.255.255"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which router type would you use for an internet backbone with > 100 Gbps capacity?",
+      "answers": [
+        "Access Router",
+        "Distribution Router",
+        "Edge Router",
+        "Core Router"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which feature is NOT commonly considered when selecting a router?",
+      "answers": [
+        "Throughput",
+        "Support for firewalls and VPNs",
+        "Frame rate performance",
+        "Software defined networking"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of a loopback address in networking?",
+      "answers": [
+        "To send packets to all hosts in a network",
+        "For broadcast within the network",
+        "To test protocol implementation on the local device",
+        "To establish connections with remote routers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which type of delivery involves passing a packet to an intermediate router before reaching the destination?",
+      "answers": [
+        "Direct Delivery",
+        "Indirect Delivery",
+        "Static Routing",
+        "Broadcast Delivery"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What distinguishes a 'Routed Protocol' from a 'Routing Protocol'?",
+      "answers": [
+        "Routed protocols are used by routers to build routing tables",
+        "Routing protocols are used to move traffic through the network",
+        "Routed protocols are used to direct user traffic",
+        "Routing protocols define link state and distance vector algorithms"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which performance metric is essential for measuring a router's capability in handling data traffic?",
+      "answers": [
+        "LAN interface types",
+        "Quality of Service",
+        "Software support",
+        "Redundancy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does the metric value represent in a routing table?",
+      "answers": [
+        "The most trusted path",
+        "The least trusted path",
+        "The number of hops to the destination",
+        "The quality of the physical medium"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What happens when a router receives a packet with a destination address that does not match any entries in its routing table?",
+      "answers": [
+        "The packet is forwarded using the default route",
+        "The packet is dropped immediately",
+        "The router sends a broadcast to all networks",
+        "The router queues the packet until a matching entry is available"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following describes Host Specific Routing?",
+      "answers": [
+        "All hosts on a network are treated as a single entity",
+        "The routing table specifies the entire route for a packet",
+        "The routing table contains an entry for a full host address",
+        "Packets are delivered directly to the host using the default route"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the primary function of a router at the Network layer?",
+      "answers": [
+        "Signal cleaning and boosting",
+        "Managing collision domains",
+        "Path determination and packet forwarding",
+        "Connecting devices within the same LAN"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How does a Bridge/Switch differ from a Repeater/Hub in terms of collision domains?",
+      "answers": [
+        "A Bridge/Switch creates separate collision domains",
+        "A Bridge/Switch operates at the Physical layer",
+        "A Repeater/Hub creates separate collision domains",
+        "A Repeater/Hub can filter and forward packets based on MAC addresses"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the advantage of using Dynamic Routing over Static Routing?",
+      "answers": [
+        "Less administrative overhead and automatic updates",
+        "More secure and controlled routing",
+        "Works better for small, simple networks",
+        "Requires no CPU or memory resources"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following IPv4 addresses is a Class C private address?",
+      "answers": ["10.0.0.1", "172.20.5.10", "192.168.100.1", "127.0.0.1"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In a routing table, what does the term 'Administrative Distance' signify?",
+      "answers": [
+        "The number of hops from the source to the destination",
+        "The reliability of a route source",
+        "The amount of time a route has been inactive",
+        "The maximum packet size supported by the route"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which device can interconnect LANs of different types and perform path determination?",
+      "answers": ["Switch", "Bridge", "Router", "Hub"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What type of address is 127.0.0.1 and what is its primary use?",
+      "answers": [
+        "A private address for testing DNS servers",
+        "A loopback address for local testing and troubleshooting",
+        "A multicast address for streaming applications",
+        "A direct broadcast address for communication with all hosts in a network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which routing protocol uses a Distance Vector algorithm and has a default administrative distance of 120?",
+      "answers": ["OSPF", "EIGRP", "BGP", "RIP"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What feature should a router have to ensure reliable performance in high-availability networks?",
+      "answers": [
+        "Support for IPv4 only",
+        "Frame relay interface",
+        "Redundancy mechanisms",
+        "Single point of failure"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which protocol would you use if you need to support the automatic exchange of routing information in a large enterprise network?",
+      "answers": ["Static Routing", "RIP", "OSPF", "ICMP"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In IPv4 addressing, what does the term 'Network Address' refer to?",
+      "answers": [
+        "The address used by a host for internal testing",
+        "The unique address of a specific host",
+        "The identifier for an entire network segment",
+        "The address used for broadcasting to all hosts in a network"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Why is a default route important in a routing table?",
+      "answers": [
+        "It helps in filtering unwanted traffic",
+        "It specifies the final destination for static routes",
+        "It provides a route for packets with unknown destination networks",
+        "It creates multiple collision domains"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What would be the primary reason to use a Core Router?",
+      "answers": [
+        "Connecting a small office to an ISP",
+        "Serving as the main router in an internet backbone",
+        "Managing a single department's internal traffic",
+        "Providing redundancy in a small home network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following describes the function of a Routing Protocol?",
+      "answers": [
+        "To direct user traffic efficiently",
+        "To determine the next hop for a packet",
+        "To build and update routing tables automatically",
+        "To specify firewall rules for security"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the primary purpose of a multicast address in IPv4?",
+      "answers": [
+        "To deliver packets to a specific single host",
+        "To send packets to all hosts in a broadcast domain",
+        "To deliver packets to a group of interested hosts",
+        "To communicate with a default gateway"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "When selecting a router for campus backbone connections, which type would be most appropriate?",
+      "answers": [
+        "Access Router",
+        "Distribution Router",
+        "Edge Router",
+        "Core Router"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the difference between Routed Protocols and Routing Algorithms?",
+      "answers": [
+        "Routed Protocols define the rules for forwarding user traffic, while Routing Algorithms determine the best path",
+        "Routing Algorithms create static entries, while Routed Protocols only support dynamic updates",
+        "Routed Protocols are only used in static routing scenarios",
+        "Routing Algorithms operate at the Physical layer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the main benefit of having separate collision and broadcast domains in a network?",
+      "answers": [
+        "Increased signal strength",
+        "Reduced broadcast traffic and improved performance",
+        "Simplified IP address allocation",
+        "Ability to use multicast traffic more efficiently"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following interconnection devices separates LANs into different collision domains but maintains the same broadcast domain?",
+      "answers": ["Repeaters", "Bridges/Switches", "Routers", "Hubs"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which device is responsible for separating LANs into different broadcast domains?",
+      "answers": ["Hub", "Switch", "Router", "Repeater"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which device operates at the Data-Link layer and can connect LANs of different speeds but not different types?",
+      "answers": ["Repeater", "Switch", "Router", "Access Point"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "A router uses a ______________ to determine the next hop in the packet's path.",
+      "answers": [
+        "Collision table",
+        "Routing table",
+        "Forwarding database",
+        "MAC address table"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The IPv4 address 172.16.0.0 falls within which of the following address ranges?",
+      "answers": [
+        "Public Class B range",
+        "Private Class B range",
+        "Private Class C range",
+        "Loopback range"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The IPv4 address 192.0.2.0 is used for which purpose?",
+      "answers": [
+        "Broadcast",
+        "Reserved for documentation",
+        "Multicast",
+        "Loopback"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following correctly describes the behavior of a router when using a Distance Vector routing protocol?",
+      "answers": [
+        "It sends the entire routing table periodically to neighbors",
+        "It sends only the changes in the topology to neighbors",
+        "It uses a topological map of the network",
+        "It broadcasts the routing information to all devices on the network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If a subnet mask is 255.255.255.128, how many subnets and hosts per subnet are available for a Class C network?",
+      "answers": [
+        "2 subnets, 128 hosts each",
+        "4 subnets, 64 hosts each",
+        "2 subnets, 126 hosts each",
+        "8 subnets, 32 hosts each"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the role of the default route in a routing table?",
+      "answers": [
+        "It determines the path to the closest neighbor",
+        "It defines the path for any unknown destination network",
+        "It specifies the route to multicast addresses",
+        "It prioritizes the use of RIP over OSPF"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "A network with the address 10.0.0.0/8 is categorized as a __________.",
+      "answers": [
+        "Class A public network",
+        "Class A private network",
+        "Class B public network",
+        "Class C private network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the primary purpose of the 'Next Hop' in a routing table entry?",
+      "answers": [
+        "It specifies the outgoing interface for the packet",
+        "It provides the address of the next router in the path",
+        "It determines the trustworthiness of the route",
+        "It lists all possible routes to the destination"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following IPv4 addresses is a direct broadcast address for the network 192.168.3.0/24?",
+      "answers": [
+        "192.168.3.1",
+        "192.168.3.255",
+        "192.168.255.255",
+        "255.255.255.255"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does a router perform on the IP address of a packet to determine the network ID?",
+      "answers": [
+        "An XOR operation with the destination MAC address",
+        "An AND operation with the subnet mask",
+        "A NOT operation with the source IP address",
+        "A comparison with the default gateway address"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When a routing table contains both a specific route and a default route, which one is used if both match the packet’s destination address?",
+      "answers": [
+        "The default route",
+        "The specific route",
+        "Both are used in load balancing",
+        "The route with the higher administrative distance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which type of IP address is reserved for testing purposes and does not leave the host machine?",
+      "answers": [
+        "Private address",
+        "Multicast address",
+        "Loopback address",
+        "Broadcast address"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following best describes the use of the Administrative Distance in a routing protocol?",
+      "answers": [
+        "The distance to the next hop",
+        "The total number of hops to the destination",
+        "The relative trustworthiness of a route",
+        "The size of the routing table"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following would you use to connect two different broadcast domains?",
+      "answers": ["Switch", "Router", "Repeater", "Hub"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "A Class B IPv4 address has how many bits reserved for the Network ID?",
+      "answers": ["8 bits", "16 bits", "24 bits", "14 bits"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What protocol is used by routers to dynamically learn the routes and build their routing tables?",
+      "answers": ["ARP", "RIP", "HTTP", "DHCP"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The process of translating a private IP address to a public IP address for Internet access is known as:",
+      "answers": [
+        "Static Routing",
+        "Subnetting",
+        "NAT (Network Address Translation)",
+        "ARP (Address Resolution Protocol)"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "CSCI4171-Test2-Part2": [
+    {
+      "question": "Which organization is responsible for managing the global assignment of IP addresses and network numbers?",
+      "answers": [
+        "ISOC (Internet Society)",
+        "IEEE (Institute of Electrical and Electronics Engineers)",
+        "ICANN (Internet Corporation for Assigned Numbers and Names)",
+        "IETF (Internet Engineering Task Force)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following best describes the design principle behind subnetting?",
+      "answers": [
+        "Combining multiple smaller networks into one large network",
+        "Stealing host ID bits to create subnet IDs",
+        "Assigning unique IP addresses to every host on the Internet",
+        "Dividing network numbers based on geographical regions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Given the network 200.14.1.0/24, how many subnets can be created if 3 bits are used for the subnet ID?",
+      "answers": ["4 subnets", "6 subnets", "8 subnets", "16 subnets"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If 3 bits are borrowed for subnetting from the network 200.14.1.0/24, what is the subnet mask in dotted decimal notation?",
+      "answers": [
+        "255.255.255.224",
+        "255.255.255.192",
+        "255.255.255.248",
+        "255.255.255.240"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "For the first subnet of the network 200.14.1.0/26, what is the broadcast address?",
+      "answers": ["200.14.1.63", "200.14.1.64", "200.14.1.31", "200.14.1.127"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following statements about VLSM (Variable Length Subnet Masking) is correct?",
+      "answers": [
+        "VLSM only allows a fixed number of hosts per subnet",
+        "VLSM allocates subnet IDs before allocating host IDs",
+        "VLSM is used to allow subnets of different sizes",
+        "VLSM is limited to Class A addresses only"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "When using VLSM, which subnet should be allocated first?",
+      "answers": [
+        "The subnet with the fewest hosts",
+        "The subnet with the smallest subnet ID",
+        "The subnet with the largest number of hosts",
+        "The subnet with the highest priority"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In supernetting, which of the following conditions must be satisfied for the block addresses to be valid?",
+      "answers": [
+        "The block addresses must be contiguous and a multiple of 3",
+        "The number of blocks must be a power of 2, and addresses must be contiguous",
+        "The supernet mask must be less than the default mask",
+        "The third byte of the address must always be zero"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Why is supernetting used in network design?",
+      "answers": [
+        "To combine multiple smaller networks into a larger network",
+        "To divide a large network into multiple subnets",
+        "To reduce the administrative overhead of ICANN",
+        "To increase the number of available private addresses"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the supernet mask required to combine 16 Class-C networks?",
+      "answers": [
+        "255.255.240.0",
+        "255.255.248.0",
+        "255.255.255.240",
+        "255.255.224.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If the IP address 200.10.34.0/20 is used for supernetting, which of the following addresses is not valid in the supernet?",
+      "answers": ["200.10.35.0", "200.10.33.0", "200.10.32.0", "200.10.40.0"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of the following describes how a supernet mask is derived?",
+      "answers": [
+        "By taking host ID bits and using them as additional network bits",
+        "By taking network ID bits and using them as additional host bits",
+        "By keeping the default subnet mask unchanged",
+        "By converting the host bits into broadcast bits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following describes ICANN's role in network management?",
+      "answers": [
+        "ICANN manages the distribution of MAC addresses to devices worldwide",
+        "ICANN assigns and manages global IP addresses through regional authorities",
+        "ICANN creates routing protocols for efficient data transmission",
+        "ICANN sets standards for wireless communication technologies"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the purpose of the subnet mask in a network?",
+      "answers": [
+        "To divide the network into multiple broadcast domains",
+        "To identify the network and host portions of an IP address",
+        "To enable communication between different networks",
+        "To provide an address for all devices in a subnet"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When subnetting a Class B network with a default mask of 255.255.0.0, how many subnet bits are needed to create 64 subnets?",
+      "answers": ["4 bits", "6 bits", "5 bits", "8 bits"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If a network uses a mask of 255.255.255.240, how many hosts per subnet are available?",
+      "answers": ["16 hosts", "14 hosts", "30 hosts", "6 hosts"],
+      "correctAnswer": 1
+    }
+  ],
+  "CSCI4171-FinalExam-Module5": [
+    {
+      "question": "Why do we need a dynamic routing algorithm?",
+      "answers": [
+        "To prevent unauthorized access",
+        "Because topologies can change, link costs can change, and nodes/links may fail",
+        "To ensure routers use less processing power",
+        "To reduce the size of the routing tables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following is NOT true about the basic Distance Vector (DV) algorithm?",
+      "answers": [
+        "Routers update their DV table when they receive updates about unknown networks.",
+        "Routers accept better updates for known networks.",
+        "Routers handle link failures effectively.",
+        "Periodic and triggered updates are used to exchange information."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What problem arises in the DV algorithm due to race conditions?",
+      "answers": [
+        "Split Horizon",
+        "Slow Convergence",
+        "Count to Infinity",
+        "Hold-Down Timer Failure"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is a drawback of using a fixed maximum number as infinity in the Distance Vector algorithm?",
+      "answers": [
+        "It makes the network prone to looping.",
+        "It limits the size of the network to 15 hops and causes slow convergence.",
+        "It increases the complexity of the routing algorithm.",
+        "It disables periodic updates."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How does the Split Horizon technique reduce the Count to Infinity problem?",
+      "answers": [
+        "By introducing a maximum number as infinity.",
+        "By ensuring a router does not send updates about a network to the router it learned it from.",
+        "By discarding updates with older sequence numbers.",
+        "By flooding the entire network with link state packets."
+      ],
+      "correctAnswer": 1,
+      "image": "Screenshot 2024-12-03 at 12.24.32 PM.png"
+    },
+    {
+      "question": "What is the purpose of the hold-down timer in the DV algorithm?",
+      "answers": [
+        "To prevent a router from accepting incorrect updates during a transient state.",
+        "To disable periodic updates temporarily.",
+        "To prevent split horizon issues.",
+        "To ensure faster convergence."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following is true for the Link State algorithm?",
+      "answers": [
+        "Routers share entire routing tables with neighbors.",
+        "Routers send information about directly connected links only.",
+        "Updates are sent only when the network is initialized.",
+        "It doesn't require a shortest path algorithm."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What key feature ensures that Link State Packets (LSPs) are discarded when they are outdated?",
+      "answers": [
+        "Sequence Number",
+        "Link State ID",
+        "Age field",
+        "Broadcast Protocol"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following is a correct representation of a link state database?",
+      "answers": [
+        "It contains only directly connected links of a router.",
+        "It represents the topology of the entire network.",
+        "It contains path vector messages.",
+        "It is unique to each router in the network."
+      ],
+      "correctAnswer": 1,
+      "image": "Screenshot 2024-12-03 at 12.35.57 PM.png"
+    },
+    {
+      "question": "What is the main purpose of the Border Gateway Protocol (BGP)?",
+      "answers": [
+        "To route traffic within an Autonomous System (AS).",
+        "To facilitate routing between Autonomous Systems (AS's).",
+        "To provide backup paths for campus networks.",
+        "To create shortest path routing inside a single domain."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which routing algorithm forms the basis of the Open Shortest Path First (OSPF) protocol?",
+      "answers": [
+        "Distance Vector Routing",
+        "Link State Routing",
+        "Path Vector Routing",
+        "Policy Routing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In BGP, what information does each entry in the routing table include?",
+      "answers": [
+        "Destination network and packet loss rate",
+        "Destination network, next hop router, and path to destination",
+        "Next hop router and network latency",
+        "AS number and packet delivery time"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What key feature of BGP allows implementation of routing policies?",
+      "answers": [
+        "Split Horizon",
+        "Policy Routing",
+        "Hold-Down Timer",
+        "Path Attributes"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which protocol is most commonly used for inter-campus routing?",
+      "answers": ["BGP", "OSPF", "RIP", "IGRP"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the significance of the sequence number in a Link State Packet (LSP)?",
+      "answers": [
+        "It identifies the originating router.",
+        "It indicates the age of the LSP.",
+        "It ensures the LSP is newer than previously received ones.",
+        "It tracks the link costs of the router."
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "CSCI4171-FinalExam-Module6": [
+    {
+      "question": "What is the address space size in IPv4, and why is it considered limited?",
+      "answers": [
+        "64 bits; it supports only 4 billion addresses",
+        "32 bits; it supports only 4 billion addresses",
+        "128 bits; it supports only 4 billion addresses",
+        "32 bits; it supports 8 billion addresses"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which IPv4 address classes are not typically used for host address allocation?",
+      "answers": [
+        "Class A and Class C",
+        "Class B and Class C",
+        "Class D and Class E",
+        "Class A and Class E"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which proposal formed the basis for IPv6 as per IAB's recommendation?",
+      "answers": [
+        "Ullman's IPv7 (TP/IX)",
+        "Steve Deering's IP in IP and Paul Francis' PiP",
+        "TUBA (TCP and UDP over Bigger Addresses)",
+        "RFC 1918"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the length of an IPv6 address, and how is it represented?",
+      "answers": [
+        "128 bits; in 8 groups of 4 hexadecimal digits",
+        "64 bits; in 16 groups of 2 hexadecimal digits",
+        "128 bits; in 16 groups of 2 hexadecimal digits",
+        "64 bits; in 8 groups of 4 hexadecimal digits"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the correct compressed form of the IPv6 address FAA0:0000:0000:0000:FFFF:0000:0000:000A?",
+      "answers": [
+        "FAA0::FFFF:A",
+        "FAA0::FFFF:0:0:A",
+        "FAA0::FFFF:0:A",
+        "FAA0:0:0:FFFF:A"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which IPv6 address type is used for communication within a single LAN?",
+      "answers": [
+        "Multicast Address",
+        "Site Local Address",
+        "Link Local Address",
+        "Loopback Address"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of the Flow Label field in the IPv6 header?",
+      "answers": [
+        "To define the total length of the datagram excluding the base header",
+        "To provide special handling and resource allocation for a stream of datagrams",
+        "To indicate the next header type in the datagram",
+        "To ensure the authenticity of the datagram"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which IPv6 extension header is used to pass control information to all routers visited by the datagram?",
+      "answers": [
+        "Source Routing Header",
+        "Hop-by-hop Option Header",
+        "Authentication Header",
+        "Fragmentation Header"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What are the two modes in which the Encrypted Security Payload (ESP) header can operate?",
+      "answers": [
+        "Transport and Tunnel",
+        "Strict and Loose Routing",
+        "Connectionless and Connection-oriented",
+        "Direct and Indirect"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which IPv6 transition strategy involves converting IPv6 headers to IPv4 headers at the router?",
+      "answers": [
+        "Dual Stack",
+        "Tunneling",
+        "Header Translation",
+        "Encapsulation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the function of the M bit in the Fragmentation Extension Header?",
+      "answers": [
+        "To indicate if the datagram is encrypted",
+        "To flag whether more fragments are coming",
+        "To indicate the total length of all fragments",
+        "To specify the sequence number of the fragment"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does the SPI (Security Parameters Index) in the Authentication Header signify?",
+      "answers": [
+        "Length of the datagram payload",
+        "Pointer to the hash algorithm being used",
+        "Flag indicating a jumbogram",
+        "Header length of the next extension header"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What priority is assigned to Control Traffic in IPv6 during network congestion?",
+      "answers": ["Priority 5", "Priority 6", "Priority 7", "Priority 4"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the main advantage of using Flow Labels in IPv6?",
+      "answers": [
+        "To compress IPv6 addresses for faster routing",
+        "To allow routers to maintain resource allocation for QoS",
+        "To increase the size of the datagram payload",
+        "To add more flexibility to address allocation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the default version field value in the IPv6 base header?",
+      "answers": ["0001", "0010", "0110", "1000"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which transition strategy uses IPv6-compatible IPv4 addresses to encapsulate IPv6 datagrams?",
+      "answers": [
+        "Automatic Tunneling",
+        "Configured Tunneling",
+        "Header Translation",
+        "Dual Stack"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "CSCI4171-FinalExam-Module7": [
+    {
+      "question": "Which of the following represents the key advantages of wireless networking summarized by the acronym C.A.M.P?",
+      "answers": [
+        "Cost, Accessibility, Media, Portability",
+        "Convenience, Affordability, Mobility, Productivity",
+        "Connectivity, Affordability, Multitasking, Portability",
+        "Compatibility, Access, Management, Privacy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What frequency range is primarily used for wireless services?",
+      "answers": [
+        "20Hz - 20KHz",
+        "300GHz and above",
+        "800KHz - 5GHz",
+        "2GHz - 10GHz"
+      ],
+      "correctAnswer": 2,
+      "image": "path/to/Screenshot 2024-12-01 at 11.22.51 AM.png"
+    },
+    {
+      "question": "Which wireless network type is primarily used for short-range communication between devices like smartphones and smartwatches?",
+      "answers": [
+        "Local Area Network (LAN)",
+        "Personal Area Network (PAN)",
+        "Campus Area Network (CAN)",
+        "Metropolitan Area Network (MAN)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which IEEE 802.11 standard introduced Extremely High Throughput (EHT) and is also known as WiFi 7?",
+      "answers": ["802.11ac", "802.11n", "802.11ax", "802.11be"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What does the term BSS ID refer to in an infrastructure BSS setup?",
+      "answers": [
+        "Character string assigned by an admin, also known as SSID",
+        "MAC address of the Access Point serving the BSS",
+        "IP address of the Access Point",
+        "Name of the distribution system connecting APs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following steps is part of the Active Association process for connecting to an Access Point?",
+      "answers": [
+        "Client sends an Association Response",
+        "AP sends a Probe Request frame",
+        "Client sends a Probe Request frame",
+        "AP sends a Reassociation Request"
+      ],
+      "correctAnswer": 2,
+      "image": "path/to/Screenshot 2024-12-01 at 12.11.25 PM.png"
+    },
+    {
+      "question": "Which protocol ensures that only one station transmits a frame at a time in 802.11 wireless LANs?",
+      "answers": [
+        "Collision Detection Protocol (CDP)",
+        "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA)",
+        "Time Division Multiple Access (TDMA)",
+        "Frequency Division Multiplexing (FDM)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the purpose of RTS (Request to Send) and CTS (Clear to Send) frames in wireless networking?",
+      "answers": [
+        "To provide error correction during data transmission",
+        "To solve the hidden node problem",
+        "To enable synchronization between APs",
+        "To enhance data encryption"
+      ],
+      "correctAnswer": 1,
+      "image": "path/to/Screenshot 2024-12-01 at 1.06.28 PM.png"
+    },
+    {
+      "question": "In Frequency Hopping Spread Spectrum (FHSS), the hopping pattern is determined by which mechanism?",
+      "answers": [
+        "Digital Encryption Standard (DES)",
+        "Pseudorandom Sequence Number Generator (PSNG)",
+        "Carrier Frequency Assignment (CFA)",
+        "Dynamic Channel Allocation (DCA)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What feature of 6G networks supports real-time applications such as autonomous vehicles and haptic communication?",
+      "answers": [
+        "AI Integration",
+        "Ultra-Low Latency",
+        "Human-Centric Communication",
+        "Massive Machine-Type Communication (mMTC)"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "CSCI4171-FinalExam-Module8": [
+    {
+      "question": "What is the primary advantage of optical fibers over copper cables in terms of data transmission?",
+      "answers": [
+        "Higher resistance to corrosion",
+        "Higher bandwidth over long distances without repeaters",
+        "Smaller diameter allowing easy installation",
+        "Immunity to electromagnetic interference"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In the context of optical networks, what does WDM stand for?",
+      "answers": [
+        "Wide Digital Multiplexing",
+        "Wave Division Multiplexing",
+        "Wavelength Digital Multiplexing",
+        "Wireless Data Multiplexing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following statements about first-generation optical networks is correct?",
+      "answers": [
+        "They use Wavelength Division Multiplexing to enhance data rates.",
+        "Fiber optics are used purely as a transmission medium.",
+        "Switching and routing are incorporated into the optical domain.",
+        "Examples include WDM and optical routers."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the typical diameter of the cladding in an optical fiber?",
+      "answers": ["8 microns", "62.5 microns", "125 microns", "150 microns"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of a wavelength filter in an optical network?",
+      "answers": [
+        "Combining signals at different wavelengths",
+        "Selecting one wavelength and rejecting others",
+        "Converting optical signals into electrical signals",
+        "Restoring electrical signals from optical data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the function of a wavelength add/drop multiplexer?",
+      "answers": [
+        "To combine multiple optical signals into one output",
+        "To switch wavelengths between input and output ports",
+        "To add or drop specific wavelengths from an optical signal",
+        "To amplify weak optical signals in the network"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In an all-optical network, how many channels at 10 Gbps each can recent technologies support per fiber?",
+      "answers": [
+        "40 channels",
+        "100 channels",
+        "Over 100 channels",
+        "200 channels"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which optical component is responsible for generating optical pulses?",
+      "answers": [
+        "Wavelength router",
+        "Optical receiver",
+        "Optical transmitter",
+        "Wavelength multiplexer"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is a key characteristic of wavelength routing networks?",
+      "answers": [
+        "They broadcast signals to all nodes using couplers.",
+        "The same wavelength is used for the entire path.",
+        "They require demultiplexers at every node.",
+        "They do not use algorithms for path setup."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which rule must be followed in a wavelength routing algorithm?",
+      "answers": [
+        "Paths can share the same wavelength on the same link.",
+        "The wavelength can change mid-path.",
+        "The same wavelength must be used for the entire path.",
+        "Nodes cannot route multiple wavelengths simultaneously."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the main principle used by optical fibers to guide light through the core?",
+      "answers": [
+        "Refraction at the core-cladding boundary",
+        "Total internal reflection",
+        "Absorption of unwanted wavelengths",
+        "Dispersion compensation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which optical component uses a photo diode to convert optical signals into electrical signals?",
+      "answers": [
+        "Optical transmitter",
+        "Wavelength multiplexer",
+        "Optical receiver",
+        "Wavelength filter"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In a broadcast and select network, what is used by each node to receive a desired wavelength?",
+      "answers": [
+        "A wavelength router",
+        "A tuneable optical filter",
+        "A demultiplexer",
+        "A wavelength multiplexer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following is NOT an advantage of optical networks?",
+      "answers": [
+        "High bandwidth over long distances",
+        "Immunity to electromagnetic interference",
+        "Shorter lifetimes compared to copper cables",
+        "Resistance to crosstalk"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the primary role of a wavelength router/switch in optical networks?",
+      "answers": [
+        "Combining multiple wavelengths into one",
+        "Adding or dropping specific wavelengths from a stream",
+        "Routing wavelengths between input and output ports",
+        "Selecting a single wavelength from a set"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "CSCI4171-FinalExam-Module5-8": [
+    {
+      "question": "In the Distance Vector (DV) routing algorithm, what happens when a router receives an update about a network it already knows?",
+      "answers": [
+        "The router always discards the update",
+        "The router accepts the update if it provides a better (shorter) path",
+        "The router immediately floods the network with the new information",
+        "The router waits for confirmation from neighboring routers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the primary purpose of the Split Horizon technique in routing algorithms?",
+      "answers": [
+        "To increase network bandwidth",
+        "To prevent routing loops by preventing a router from advertising a route back to the router from which it learned the route",
+        "To reduce the number of routers in a network",
+        "To prioritize specific network paths"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In the Link State Routing Algorithm, what does an LSP (Link State Packet) typically contain?",
+      "answers": [
+        "The entire routing table of a router",
+        "Only the router's distance vector",
+        "The ID of the router and a list of its neighbors with link costs",
+        "A complete map of the entire network topology"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the key characteristic of Border Gateway Protocol (BGP) that distinguishes it from other routing protocols?",
+      "answers": [
+        "It uses only distance vector calculations",
+        "It operates exclusively within a single autonomous system",
+        "It uses path vector routing across autonomous systems",
+        "It relies solely on link state information"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In IPv6, what does the Flow Label field in the base header primarily enable?",
+      "answers": [
+        "Encryption of network packets",
+        "Fragmentation of large packets",
+        "Special handling for a particular stream of datagrams",
+        "Determining the hop limit"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which IPv6 extension header is used to specify the route that a packet must follow?",
+      "answers": [
+        "Hop-by-hop Option Header",
+        "Fragmentation Extension Header",
+        "Source Routing Extension Header",
+        "Authentication Header"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In 802.11 wireless networks, what problem does the RTS/CTS (Request to Send/Clear to Send) mechanism solve?",
+      "answers": [
+        "Encryption of wireless transmissions",
+        "Increasing network bandwidth",
+        "Resolving the hidden node problem",
+        "Authenticating wireless clients"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the key principle of Spread Spectrum technology in wireless communication?",
+      "answers": [
+        "To increase transmission speed",
+        "To spread information over a wider bandwidth to make jamming or interception more difficult",
+        "To reduce electromagnetic interference",
+        "To increase the range of wireless transmission"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In Direct Sequence Spread Spectrum (DSSS), how are data bits represented?",
+      "answers": [
+        "By maintaining the original bit rate",
+        "By converting each bit to a fixed frequency",
+        "By representing each bit with multiple bits using a chipping code",
+        "By randomly changing transmission frequencies"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the primary advantage of Wave Division Multiplexing (WDM) in optical networks?",
+      "answers": [
+        "Reducing the cost of network infrastructure",
+        "Transmitting several optical signals at different wavelengths on a single fiber",
+        "Increasing the physical size of optical fibers",
+        "Simplifying network routing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In the context of 6G networks, what is a key feature related to Massive Machine-Type Communication (mMTC)?",
+      "answers": [
+        "Reduced support for IoT devices",
+        "Limited connectivity for industrial applications",
+        "Support for billions of IoT devices with enhanced reliability",
+        "Focusing exclusively on human communication"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What distinguishes an Infrastructure BSS from an Independent BSS in 802.11 wireless networks?",
+      "answers": [
+        "Infrastructure BSS uses access points for communication, while Independent BSS allows direct node communication",
+        "Infrastructure BSS has faster transmission speeds",
+        "Independent BSS supports more simultaneous connections",
+        "Infrastructure BSS uses different frequency bands"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

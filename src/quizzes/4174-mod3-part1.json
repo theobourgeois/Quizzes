@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What is the primary function of a firewall in network security?",
+    "answers": [
+      "To physically block unauthorized access to network cables",
+      "To monitor and filter network traffic based on predefined security rules",
+      "To encrypt all inbound and outbound traffic",
+      "To replace antivirus software for endpoint protection"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following best describes a packet filtering router's role in firewall security?",
+    "answers": [
+      "It acts as a proxy server to manage web traffic",
+      "It inspects and filters network traffic based on IP addresses, protocols, and port numbers",
+      "It encrypts traffic before sending it over the network",
+      "It ensures only encrypted traffic is allowed through the network"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the primary difference between a Screened Host and a Dual Homed Gateway firewall?",
+    "answers": [
+      "A Screened Host relies on a bastion host and a packet filtering router, while a Dual Homed Gateway has two network interfaces to prevent direct access between networks",
+      "A Dual Homed Gateway is designed for small networks, whereas a Screened Host is used for large enterprises",
+      "A Screened Host functions only at layer 2 of the OSI model, while a Dual Homed Gateway operates at layer 3",
+      "A Dual Homed Gateway only allows UDP traffic, whereas a Screened Host supports TCP"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following best describes the function of Network Address Translation (NAT) in firewalls?",
+    "answers": [
+      "It encrypts network traffic for secure transmission",
+      "It allows multiple devices on a private network to share a single public IP address",
+      "It blocks all inbound and outbound connections except for HTTP traffic",
+      "It ensures that only static IP addresses are used within a network"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In Cisco Router ACLs, what does an access control statement primarily check?",
+    "answers": [
+      "The MAC address of the source and destination devices",
+      "The checksum of the IP packet to verify integrity",
+      "The source IP address and optionally the destination address, protocol, and port number",
+      "The encryption level of the transmitted data"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following ACL statements correctly denies FTP access to network 172.16.3.0 while permitting other traffic?",
+    "answers": [
+      "access-list 101 permit tcp 172.16.3.0 0.0.0.255 any eq 21",
+      "access-list 101 deny tcp any 172.16.3.0 0.0.0.255 eq 20-21",
+      "access-list 101 permit ip any any",
+      "access-list 101 deny ip any any"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the wildcard mask used to match exactly one host with IP address 192.168.1.1?",
+    "answers": [
+      "0.0.0.0",
+      "255.255.255.255",
+      "0.0.0.255",
+      "255.255.0.0"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is a limitation of packet filtering firewalls?",
+    "answers": [
+      "They can filter application-specific commands such as HTTP GET vs HTTP PUT",
+      "They work at all OSI layers, ensuring deep packet inspection",
+      "They can be bypassed using address spoofing techniques",
+      "They provide built-in encryption for all transmitted data"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following ACL configurations would block SSH traffic from 192.168.4.1 to 192.168.1.1 while allowing other traffic?",
+    "answers": [
+      "access-list 101 permit tcp 192.168.4.1 0.0.0.0 192.168.1.1 eq 22",
+      "access-list 101 deny tcp 192.168.4.1 0.0.0.0 192.168.1.1 eq 22",
+      "access-list 101 deny ip any any",
+      "access-list 101 permit ip any any"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the main advantage of Extended ACLs over Standard ACLs?",
+    "answers": [
+      "They only use a single rule for filtering all traffic",
+      "They can filter traffic based on source and destination IP, protocol, and port number",
+      "They are easier to configure than Standard ACLs",
+      "They apply only to inbound traffic, making them more secure"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which interface would be used to apply an ACL to outbound traffic on a router's Ethernet port?",
+    "answers": [
+      "interface S0",
+      "interface E0",
+      "interface ACL0",
+      "interface NAT1"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following best describes the purpose of Access Control Lists (ACLs) in network security?",
+    "answers": [
+      "To determine which users can physically access network infrastructure devices",
+      "To allow or deny traffic based on specific rules defined by administrators",
+      "To encrypt data before transmitting it over the network",
+      "To replace the need for firewalls by restricting traffic at the endpoint level"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If a network administrator wants to block all traffic from 192.168.2.0/24 to 192.168.1.0/24 but permit all other traffic, which ACL configuration should be used?",
+    "answers": [
+      "access-list 1 permit any",
+      "access-list 1 deny 192.168.2.0 0.0.0.255\naccess-list 1 permit any",
+      "access-list 1 deny any",
+      "access-list 1 permit ip any any"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Why can address spoofing compromise the effectiveness of packet filtering?",
+    "answers": [
+      "Packet filtering only verifies the destination address, not the source address",
+      "Spoofed packets can bypass ACL rules by pretending to come from a trusted source",
+      "Packet filtering relies entirely on MAC addresses, which can be easily changed",
+      "Spoofing allows attackers to bypass firewalls and gain administrator privileges automatically"
+    ],
+    "correctAnswer": 1
+  }
+]

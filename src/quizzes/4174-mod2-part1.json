@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which of the following best describes the primary goal of a Denial of Service (DoS) attack?",
+    "answers": [
+      "To gain unauthorized access to sensitive information",
+      "To disrupt the availability of a resource to legitimate users",
+      "To manipulate network traffic to redirect users to a malicious website",
+      "To exploit vulnerabilities to gain remote control of a system"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Why is a DoS attack considered difficult to trace?",
+    "answers": [
+      "The attacker always hides their identity using encryption",
+      "The attack is often launched using botnets and spoofed IP addresses",
+      "DoS attacks rely on zero-day vulnerabilities that are untraceable",
+      "Victims of DoS attacks usually do not report them"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which classification of DoS attacks involves sending a flood of real-looking data to overwhelm a target system?",
+    "answers": [
+      "Logic DoS Attack",
+      "Reflective and Amplified DoS Attack",
+      "Flooding DoS Attack",
+      "State-Change DoS Attack"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In a TCP SYN Flood attack, what happens when the attacker does not send the final ACK?",
+    "answers": [
+      "The server responds with a RST packet, terminating the connection",
+      "The server waits indefinitely, causing a system freeze",
+      "The server holds half-open connections, eventually exhausting resources",
+      "The connection is automatically closed by the firewall"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following best describes a 'Land Attack'?",
+    "answers": [
+      "An attacker floods the victim with large ICMP packets",
+      "An attacker sends a TCP SYN packet where the source and destination IP addresses are the same",
+      "An attacker overwhelms a web server with HTTP GET requests",
+      "An attacker fragments TCP packets to exploit a vulnerability in reassembly"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Why are Smurf attacks less effective on modern networks?",
+    "answers": [
+      "Most routers block broadcast traffic by default",
+      "Firewalls detect and block all ICMP traffic",
+      "Victims can respond with RST packets to terminate the attack",
+      "Most modern operating systems are immune to ICMP-based attacks"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following DoS attacks targets the reassembly process of fragmented IP packets?",
+    "answers": [
+      "Tear Drop Attack",
+      "Ping of Death",
+      "UDP Flood Attack",
+      "SYN-ACK Flood"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which attack involves sending multiple HTTP GET requests in a single packet?",
+    "answers": [
+      "Recursive GET Attack",
+      "Excessive VERB Attack",
+      "Multiple VERB Single Request Attack",
+      "Smurf Attack"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How does a botnet-based DoS attack differ from a traditional DoS attack?",
+    "answers": [
+      "It uses multiple compromised devices to launch a coordinated attack",
+      "It targets only web applications, unlike traditional DoS attacks",
+      "It is designed to exploit zero-day vulnerabilities in network hardware",
+      "It operates by sending malformed packets to crash the target"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which tool is designed to generate large amounts of TCP, UDP, and HTTP traffic for stress testing but is often misused for DoS attacks?",
+    "answers": [
+      "SLOWLORIS",
+      "LOIC (Low Orbit Ion Cannon)",
+      "R.U. Dead Yet (RUDY)",
+      "HIGH ORBIT ION CANON (HOIC)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the primary mechanism behind a UDP flood attack?",
+    "answers": [
+      "Sending large numbers of UDP packets to random ports on the target machine",
+      "Overloading the victim with fragmented TCP packets",
+      "Sending oversized ICMP echo requests to the target",
+      "Exploiting open DNS resolvers to reflect amplified traffic to the victim"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which attack method involves keeping multiple simultaneous connections open by sending partial HTTP requests at a slow rate?",
+    "answers": [
+      "Tear Drop Attack",
+      "SLOWLORIS Attack",
+      "Land Attack",
+      "RST/FIN Flood"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which mitigation strategy helps prevent DoS attacks by limiting the rate of packets from a single host?",
+    "answers": [
+      "Egress Filtering",
+      "Traffic Monitoring",
+      "Lowering SYN, UDP, ICMP flood drop thresholds",
+      "Blocking ICMP traffic entirely"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the primary reason that fragmented ACK flood attacks can bypass security devices like routers?",
+    "answers": [
+      "Routers do not reassemble fragmented packets",
+      "ACK packets are always trusted by firewalls",
+      "The attack exploits vulnerabilities in DNS resolution",
+      "The attack targets application-layer weaknesses"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is NOT a common mitigation strategy against DoS attacks?",
+    "answers": [
+      "Disabling unused network services",
+      "Blocking ICMP traffic entirely",
+      "Using botnets to counteract an attack",
+      "Time-out half-open connections more aggressively"
+    ],
+    "correctAnswer": 2
+  }
+]
